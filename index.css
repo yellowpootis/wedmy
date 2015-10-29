@@ -1,0 +1,82 @@
+body {
+			margin: 0;
+}
+
+@media screen and (min-width: 1025px) {
+			#main {
+						height: 100vh;
+						width: 100vw;
+						background: url("https://dujk9xa5fr1wz.cloudfront.net/homepage-promo/man_tablet.jpg") no-repeat center center fixed;
+						-webkit-background-size: cover;
+						-moz-background-size: cover;
+						-o-background-size: cover;
+						background-size: cover;
+						display: inline-block;
+			}
+			#search {
+						color: white;
+						width: 840px;
+						background: rgba(0, 0, 0, .85);
+						padding: 50px 60px;
+						margin-left: auto;
+						margin-right: auto;
+						margin-bottom: auto;
+						margin-top: 225px;
+						border-radius: 2px;
+						text-align: center;
+						z-index: 1;
+						border-radius: 8px;
+			}
+			::-webkit-input-placeholder {
+						font-size: 18px;
+						color: #d0cdfa;
+			}
+			:-moz-placeholder {
+						/* older Firefox*/
+						
+						font-size: 14px;
+						color: #d0cdfa;
+			}
+			::-moz-placeholder {
+						/* Firefox 19+ */
+						
+						font-size: 14px;
+						color: #d0cdfa;
+			}
+			:-ms-input-placeholder {
+						font-size: 14px;
+						color: #d0cdfa;
+			}
+			#heading {
+						margin: 0;
+						color: #fff;
+						font-size: 35px;
+						font-weight: 400;
+						line-height: 1;
+						letter-spacing: 1.3px;
+						padding-bottom: 15px;
+						font-family: 'Roboto', sans-serif;
+			}
+			#subhead {
+						color: #fff;
+						font-size: 24px;
+						margin-bottom: 30px;
+						line-height: 1;
+						font-weight: 300;
+						font-family: 'Roboto', sans-serif;
+			}
+			.searchie {
+						height: 60px;
+						font-size: 18px;
+			}
+			.home-search-btn {
+						background: #1376d7;
+						border: 0;
+						color: #fff;
+						font-size: 22px;
+						border-radius: 0 8px 8px 0;
+						padding: 0 20px;
+						height: 60px;
+			}
+
+}
